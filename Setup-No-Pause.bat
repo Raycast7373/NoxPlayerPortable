@@ -18,13 +18,13 @@ echo Complete.
 
 
 echo Extracting Files...
-"%cd%\Tools\7-ZipPortable\App\7-Zip\7z.exe" x NoxPlayerSetup.exe -oNoxPlayer\Nox 
+"%cd%\Tools\7-Zip\App\7-Zip\7z.exe" x NoxPlayerSetup.exe -oNoxPlayer\Nox 
 echo Extracting Complete.
 
 
-echo Going To Copy Some Required Files...
-xcopy "%cd%\assets\Bignox" "NoxPlayer\Bignox" /E /H /F /I
-echo Copy Complete.
+echo Going To Extract Some Required Files...
+"%cd%\Tools\7-Zip\App\7-Zip\7z.exe" x "%CD%\assets\Bignox.7z" -oNoxPlayer\Bignox 
+echo Extracting Complete.
 
  
 echo Going To Copy Run Scripts...
