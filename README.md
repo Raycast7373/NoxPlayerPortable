@@ -5,7 +5,7 @@ How to run:
 run one of the bat files (Setup-No-Pause-Clean-After.bat is the best to run) and after the script complete running, a folder named noxplayer will apear, you can copy that folder to whereever you want (like a usb). 
 to launch noxplayer, run the bat file in the noxplayer folder (normal you would use RunNox.bat).
 
-
+Sorry for my bad english
 
 
 Note:
