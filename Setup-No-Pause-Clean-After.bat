@@ -33,7 +33,7 @@ copy "%cd%\assets\SecretRunScripts\*" "%cd%\NoxPlayer"
 echo Copy Complete.
 
 echo Removing Temp Files...
-rem NoxPlayerSetup.exe
+del NoxPlayerSetup.exe
 echo Remove Complete.
 
 type "%CD%\art\thanks.txt"
