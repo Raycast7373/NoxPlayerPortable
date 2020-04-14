@@ -34,7 +34,7 @@ echo Copy Complete.
 
 pause
 echo Removing Temp Files...
-rem NoxPlayerSetup.exe
+del NoxPlayerSetup.exe
 echo Remove Complete.
 
 type "%CD%\art\"%CD%\art\thanks.txt"
