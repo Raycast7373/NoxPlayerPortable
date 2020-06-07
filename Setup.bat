@@ -5,13 +5,13 @@ type "%CD%\art\art.txt"
 
 
 pause
-echo Downloading Files Using Wget...
-"%cd%\Tools\GnuWin32\bin\wget.exe" http://res06.bignox.com/full/20200328/0a4e8c04fc0f4b0eb01dc6a42816618f.exe?filename=nox_setup_v6.6.0.5_full_intl.exe
+echo Downloading Files...  Please manually close HTTPDownloader After The Download Completed!
+"%cd%\Tools\HTTPDownloader.exe" --parts 8 --immediate --url https://www.bignox.com/en/download/fullPackage --output-directory "%cd%"
 echo Download Complete.
 
 pause
 echo Renaming Files...
-ren "0a4e8c04fc0f4b0eb01dc6a42816618f.exe?filename=nox_setup_v6.6.0.5_full_intl.exe" "NoxPlayerSetup.exe"
+ren "nox_setup*" "NoxPlayerSetup.exe"
 echo Renaming Complete.
 
 pause
@@ -21,12 +21,12 @@ echo Complete.
 
 pause
 echo Extracting Files...
-"%cd%\Tools\7-Zip\App\7-Zip\7z.exe" x NoxPlayerSetup.exe -oNoxPlayer\Nox 
+"%cd%\Tools\7-Zip\App\7-Zip\7za.exe" x NoxPlayerSetup.exe -oNoxPlayer\Nox 
 echo Extracting Complete.
 
 pause
 echo Going To Extract Some Required Files...
-"%cd%\Tools\7-Zip\App\7-Zip\7z.exe" x "%CD%\assets\Bignox.7z" -oNoxPlayer\Bignox 
+"%cd%\Tools\7-Zip\App\7-Zip\7za.exe" x "%CD%\assets\Bignox.7z" -oNoxPlayer\Bignox 
 echo Extracting Complete.
 
 pause 
