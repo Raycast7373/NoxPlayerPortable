@@ -1,5 +1,5 @@
 # NoxPlayerPortable
-A script that will make a almost portable version of NoxPlayer (Windows Only) (using 7zip and gnu32 wget)
+A script that will make a almost portable version of NoxPlayer (Windows Only) (using 7zip and HttpDownloader)
 
 How to run setup:
 run one of the bat files (Setup-No-Pause-Clean-After.bat is the best to run). 
