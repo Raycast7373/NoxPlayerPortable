@@ -2,6 +2,10 @@
 A script that will make a almost portable version of NoxPlayer (Windows Only) (using 7zip and HttpDownloader)
 
 How to run setup:
+
+please first launch httpdownloader from the tools folder and allow it in your virus scanner (it is detected as malware but it isnt malware) then close it and run one of the scripts.
+Note: after the download please mannualy close httpdownloader
+
 run one of the bat files (Setup-No-Pause-Clean-After.bat is the best to run). 
 after the script complete running the folder noxplayer is ready to beign copied, you can copy that folder to whereever you want (like a usb). 
 
