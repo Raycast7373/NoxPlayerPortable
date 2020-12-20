@@ -20,6 +20,9 @@ Sorry for my bad english
 Note:
 The chance that i would update this is not very big.
 
+
+If httpdownloader has problems (keep httpdownloader open), try to manually download nox player and put the exe in the folders with the scripts, then close httpdownloader. (Seems to work by some people)
+
 If you have questions, contact me at: q.brala@gmail.com
 
 
