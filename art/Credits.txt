@@ -1,1 +1,1 @@
-Credits to the makers of HttpDownloader and 7Zip for ther program.
+Credits to the makers of HttpDownloader and 7Zip for their program.
