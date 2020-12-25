@@ -13,6 +13,10 @@ How to launch:
 to launch noxplayer, run the bat file in the noxplayer folder (normal you would use RunNox.bat). i need to find a way to redirect Program files since it cant run without Bignox and thats a problem since i cant get it to work in the same folder...
 
 
+////I made a version that uses curl instead of httpdownloader
+link:
+https://github.com/BlueMagicalWolf/NoxPlayerPortable-Curl
+
 
 Sorry for my bad english
 
