@@ -1,6 +1,9 @@
 # NoxPlayerPortable
 A script that will make a almost portable version of NoxPlayer (Windows Only) (using 7zip and HttpDownloader)
 
+Please download the whole repository, the version of the script in releases doesn't download the newest version of nox player!
+____________________________________________________
+
 How to run setup:
 
 please first launch httpdownloader from the tools folder and allow it in your virus scanner (it is detected as malware but it isnt malware) then close it and run one of the scripts.
