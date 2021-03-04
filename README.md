@@ -2,6 +2,8 @@
 A script that will make a almost portable version of NoxPlayer (Windows Only) (using 7zip and HttpDownloader)
 
 Please download the whole repository, the version of the script in releases doesn't download the newest version of nox player!
+
+Edit: oh wait, i removed the one from releases already. Lmao
 ____________________________________________________
 
 How to run setup:
