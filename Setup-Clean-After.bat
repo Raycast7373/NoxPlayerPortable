@@ -3,14 +3,9 @@ type "%CD%\art\art.txt"
                                                                                                                                           
 
 pause
-echo Downloading Files...  Please manually close HTTPDownloader After The Download Completed!
-"%cd%\Tools\HTTPDownloader.exe" --parts 8 --immediate --url https://www.bignox.com/en/download/fullPackage --output-directory "%cd%"
+echo Downloading Files Using Curl...
+"%cd%\Tools\Curl\curl.exe"  -o ./NoxPlayerSetup.exe -J -L bignox.com/en/download/fullPackage?beta
 echo Download Complete.
-
-pause
-echo Renaming Files...
-ren "nox_setup*" "NoxPlayerSetup.exe"
-echo Renaming Complete.
 
 pause
 echo Creating Directory Structure...
@@ -34,7 +29,7 @@ echo Copy Complete.
 
 pause
 echo Removing Temp Files...
-del NoxPlayerSetup.exe
+rem NoxPlayerSetup.exe
 echo Remove Complete.
 
 type "%CD%\art\"%CD%\art\thanks.txt"
